@@ -5,7 +5,7 @@ email: briandlevy@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I am an interaction & graphic designer living a short boat ride from Seattle.
   A problem solver at heart, I’m most satisfied working in the space where form and function meet.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog/
 url: "http://www.brian-levy.com" # the base hostname & protocol for your site
 keywords: ux, ux design, user experience, user experience design, graphic design, interaction design, visual design, web design, screen printing, logo design, seattle, puget sound, bainbridge island
 host: 0.0.0.0
