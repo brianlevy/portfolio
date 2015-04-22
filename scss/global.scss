@@ -1,0 +1,28 @@
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
+@mixin media-min-max($device-min, $device-max) {
+	@media screen and (min-width: $device-min) and (max-width: $device-max) {
+		@content;
+	}
+}
+@mixin media-max($device){
+	@media screen and (max-width: $device) {
+		@content;
+	}
+}
+
+@import "variables";
+@import "base";
+@import "layout";
+//@import "syntax-highlighting";

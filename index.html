@@ -1,0 +1,36 @@
+---
+layout: default
+nav: work
+
+---
+
+<div class="home">
+
+
+  {% for page in site.pages %}
+    {% if page.url == "/about/" %}
+        <p>{{ page.excerpt }}
+        &hellip; <a href="{{ page.url }}">more about me</a></p>
+    {% endif %}
+  {% endfor %} 
+  <h2>Work</h2>
+  <ul class="project-list">
+    {% for post in site.posts %}
+    <!--{% for tag in post.tags %}
+    {% if tag == "featured" %}-->
+      <li>
+        <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+        <div class="thumb">
+          <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
+            <img src="{{ site.proj-imgpath }}{{ post.thumb }}" title="{{ post.title }}"/>
+            <h2>{{ post.title }}</h2>
+          </a>
+        </div>
+        
+      </li>
+    <!--{% endif %}
+    {% endfor %}-->  
+    {% endfor %}
+  </ul>
+  <!--<a class="more" href="/work">More projects</a>-->
+</div>

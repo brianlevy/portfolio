@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <!--<h1 class="page-heading">{{ page.title }}</h1>-->
+
+  <ul class="project-list">
+    {% for post in site.categories.[page.type] %}
+      <li>
+        <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+       
+          <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
+            <img src="{{ site.proj-imgpath }}{{ post.thumb }}" />
+            <h2>{{ post.title }}</h2>
+          </a>
+        
+      </li>
+    {% endfor %}
+  </ul>
+
+
+</div>

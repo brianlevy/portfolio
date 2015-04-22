@@ -1,0 +1,446 @@
+.page-wrap {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: $spacing-base 0 0 0;
+    background: $color-white;
+    @include media-query($on-palm) {
+        width: 90%;
+    }
+}
+.project-page .logo-type {
+    display: none;
+    @include media-query($on-palm) {
+        display: block;
+    }
+}
+/**
+ * Site header
+ */
+.site-header {
+    position: relative;
+    margin-left: $spacing-base;
+    padding: 0 0 0 6rem;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        margin-left: $spacing-lg;
+        padding-left: 7rem;        
+    }
+}
+.lockup {
+    &:link, &:visited {
+        color: $grey-color;
+    }
+    &:hover {
+        color: $link-color;
+        text-decoration: none;
+    }
+}
+.nametag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 96px;
+    font-family: $logo-type-font;
+    font-size: .875rem;
+    @include media-query($on-palm) {
+        font-size: 1.25rem;              
+    }
+
+    @include media-query($on-laptop) {
+        width: 112px;              
+    }
+}
+
+.logo {
+    height: 3rem;
+    width: 6rem;
+    background: url("../img/pencil-3.png") top left no-repeat;
+    background-size: contain;
+    @include media-query($on-laptop) {
+        height: 3.5rem;
+        width: 7rem;        
+    }
+}
+.logo-type {
+    /*display: none;*/
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: .25rem 0 0 0;
+    line-height: .875;
+    @include media-query($on-palm) {
+       display: block;
+    }
+    @include media-query($on-laptop) {
+        width: 75%;
+    }
+}
+
+.tagline {
+    display: none;
+    color: $grey-color;
+    padding-left: $spacing-base;
+    padding-top: .25em;
+    line-height: 1;
+    height: 1.5rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    @include media-query($on-palm) {
+       display: block;
+    }
+    @include media-query($on-laptop) {
+        padding-left: $spacing-lg;
+        height: 1.75rem;    
+    }
+
+}
+.site-nav {
+    border-bottom: 2px solid $grey-color-light;
+    padding-left: $spacing-base;
+    padding-right: $spacing-base;
+    height: 1.61538rem;
+    font-family: $logo-type-font;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 500;
+    @extend %clearfix;
+
+    a:visited {
+        color: $link-color;
+    }
+    a:hover {
+        color: darken($link-color, 10%);
+        text-decoration: none;
+    }
+    a.active {
+        font-weight: 700;
+    }
+
+    ul {
+        margin: 0;
+        float: left;
+    }
+
+    li {
+        display: inline-block;
+        text-transform: uppercase;
+    }
+    * + * {
+        margin-left: 1em;
+    }
+    .icon-social {    
+    height: 16px;
+    width: 16px;
+        > svg {
+            height: 16px;
+            width: 16px;
+        }
+    }
+    .social-links {
+        display: none;
+        float: right;
+    }
+
+    @include media-query($on-palm) {
+        
+        border-bottom: none;
+        border-top: 2px solid $grey-color-light;
+        height: 29px;
+
+    }
+    @include media-query($on-laptop) {
+        .social-links {
+            display: block;
+        }
+        padding-left: $spacing-lg;
+        padding-right: $spacing-lg;
+    }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 2px solid $grey-color-light;
+    padding: $spacing-base;
+    text-align: center;
+    @include media-query($on-laptop) {
+        padding: $spacing-lg;
+    }
+    .post-list {
+        h2 {
+            display: none;
+        }
+        > li {
+            width: 25%;
+        }
+    }
+    
+    .social-links {
+        margin: $spacing-base 0;
+        li {
+            margin: 0 .5rem;
+        }
+        @include media-query($on-laptop) {
+            display: none;
+        
+        }
+    }
+}
+.more-list {
+    text-align: left;
+    border-bottom: 1px solid $grey-color-light;
+    padding-bottom: $spacing-base;
+    @include media-query($on-laptop) {
+            padding-bottom: $spacing-lg;
+        }
+
+    > h1 {
+        font-size: 1em;
+        text-transform: uppercase;
+        color: $grey-color-dark;
+    }
+    .project-list li {
+        width: 25%;
+        @include media-query($on-palm) {
+            width: 20%;
+        }
+        @include media-query($on-laptop) {
+            width: 16.666667%;
+        }
+    }
+}
+
+.social-links {
+    margin: 0;
+}
+.social-links li {
+    display: inline-block;
+}
+.copyright {
+    font-size: .75rem;
+}
+
+
+/**
+ * Page content
+ */
+.page-content {
+    margin: 48px 0 0 0;
+    padding: 0 $spacing-base $spacing-base $spacing-base;
+    @include media-query($on-palm) {
+        margin: $spacing-lg 0 0 6.625rem;
+    }
+
+    @include media-query($on-laptop) {
+        margin-top: $spacing-lg;
+        margin-left: 8.25rem;
+        padding: 0 $spacing-lg $spacing-lg $spacing-lg;
+    }
+    &.project, &.page {
+        @include media-max($on-palm) {
+            margin: 48px 0 0 0;
+            padding-left: $spacing-base;
+        }
+        /*margin-left: 0;
+        @include media-query($on-palm) {
+            margin-left: 6rem;
+            padding: 0 $spacing-base;
+        }
+        @include media-query($on-laptop) {
+            margin-left: 7rem;
+            padding: 0 $spacing-lg;
+        }*/
+
+    }
+}
+
+.page-heading {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.project-list {
+    margin: 0;
+    margin-left: -$spacing-lg;
+    list-style: none;
+    @extend %clearfix;
+    
+    > li {
+        /*margin-bottom: $spacing-unit;*/
+        float: left;
+        width: 50%;
+        padding: 0 0 $spacing-lg $spacing-lg;
+        /*border: 1px solid $color-white;*/
+
+        a {
+            position: relative;
+            display: block;
+            height: 100%;
+            width: 100%;
+            color: $color-white;
+            vertical-align: middle;
+        }
+        @include media-query($on-palm) {
+            width: 33.33333%;
+        }
+        @include media-query($on-laptop) {
+            width: 25%;
+        }
+
+    }
+
+    img {
+        vertical-align: middle;
+        display: inline-block;
+        /*border-radius: $spacing-sm;*/
+        /*border: 2px solid $grey-color-light;*/
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+
+    h2 {
+        visibility: hidden;
+        width: 100%;
+        height: 33%;
+        position: absolute;
+        bottom: 0;
+        font-size: .75rem;
+        line-height: 1em;
+        padding: 4px;
+        background-color: rgba(0,0,0, 0.5);
+        margin-bottom: 0;
+        @include media-query($on-laptop) {
+        }
+    }
+
+}
+.prev-next {
+    margin: 0 auto;
+    text-align: center;
+    @extend %clearfix;
+    a {
+        display: inline-block;
+        width: 25%;
+    }
+
+    h3 {
+        text-align: center;
+    }
+    .prev {
+    }
+    .next {
+    }
+
+}
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+/*
+.page {
+    h2 {text-transform: none;}
+    h3 {
+        font-size: .875em;
+        text-transform: none;
+    }
+    em {
+        font-weight: 700;
+        font-style: normal;
+    }
+}*/
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-family: $display-font-family;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 1.5rem;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
+.proj-img {
+    margin: 0;
+    list-style-type: none;
+    > * + * {
+        margin-top: $spacing-lg;
+    }
+    li {
+        display: inline-block;
+        max-width: 100%;
+    }
+    img {
+        border: 1px solid $grey-color;
+    }
+    img.no-border {
+        border: none;
+    }
+    caption {
+        font-size: .75em;
+    }
+}
+.proj-img.grid {
+    @extend %clearfix;
+    li {
+        display: block;
+        float: left;
+        margin: 0;
+        width: 100%;
+        @include media-query($on-palm) {
+            width: 50%;
+        }
+        @include media-query($on-laptop) {
+            width: 33.33333%;
+        }
+
+    }
+
+
+
+
+}
