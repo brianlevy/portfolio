@@ -7,23 +7,22 @@
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
+    @media screen and (min-width: $device) {
         @content;
     }
+}
+@mixin media-min-max($device-min, $device-max) {
+	@media screen and (min-width: $device-min) and (max-width: $device-max) {
+		@content;
+	}
+}
+@mixin media-max($device){
+	@media screen and (max-width: $device) {
+		@content;
+	}
 }
 
 @import "variables";
 @import "base";
 @import "layout";
-@import "syntax-highlighting";
-
-.logo {
-	height: 64px;
-	width: 64px;
-}
-#shape-logo-2 .logo-bg {
-	fill: $brand-color;
-}
-#shape-logo-2 .logo-mark {
-	fill: #ffffff;
-}
+//@import "syntax-highlighting";

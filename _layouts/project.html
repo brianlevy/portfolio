@@ -1,11 +1,22 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<h2>{{ page.title }}</h2>
+  {% include head.html %}
 
-<p class="meta">{{ page.date | date_to_string }}</p>
+  <body>
+    {% include svg-defs.svg %}
+    <div class="page-wrap project-page">
 
-<div class="post">
-  {{ content }}
-</div>
+      {% include header.html %}
+
+      <div class="page-content project">
+          {{ content }}
+      </div>
+
+      {% include post-footer.html %}
+    
+    </div>
+
+  </body>
+
+</html>

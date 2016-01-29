@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Brian Levy</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>The Design Portfolio of Brian Levy</title>
+    <description>I am an interaction &amp; graphic designer living a short boat ride from Seattle. A problem solver at heart, I’m most satisfied working in the space where form and function meet.
 </description>
     <link>http://www.brian-levy.com/</link>
     <atom:link href="http://www.brian-levy.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Dec 2014 09:24:15 -0800</pubDate>
-    <lastBuildDate>Wed, 10 Dec 2014 09:24:15 -0800</lastBuildDate>
-    <generator>Jekyll v2.5.2</generator>
+    <pubDate>Thu, 28 Jan 2016 17:03:49 -0800</pubDate>
+    <lastBuildDate>Thu, 28 Jan 2016 17:03:49 -0800</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>Yaquina Head lighthouse print</title>
-        <description>&lt;p&gt;Illustration and 2-color hand pulled screen print of the Yaquina Head Lighthouse.&lt;/p&gt;
+        <title>Billy Zoom Screen Print</title>
+        <description>&lt;p&gt;2-color hand pulled screen print to commemorate the return of Billy Zoom from his treatment for cancer. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/img/projects/lighthouse_detail_600.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.etsy.com/listing/256703463/billy-zoom-screen-print&quot;&gt;Buy one&lt;/a&gt;. 50% of the proceeds go to &lt;a href=&quot;https://www.gofundme.com/yx66a4&quot;&gt;Billy’s cancer fund&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 03 Dec 2014 11:12:47 -0800</pubDate>
-        <link>http://www.brian-levy.com/work/yaquina-head-lighthouse-print</link>
-        <guid isPermaLink="true">http://www.brian-levy.com/work/yaquina-head-lighthouse-print</guid>
+        <pubDate>Thu, 26 Nov 2015 00:00:00 -0800</pubDate>
+        <link>http://www.brian-levy.com/work/billy-zoom-print</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/billy-zoom-print</guid>
+        
+        <category>featured</category>
+        
+        <category>print</category>
+        
+        <category>screen printing</category>
         
         
         <category>work</category>
@@ -26,25 +32,168 @@
       </item>
     
       <item>
-        <title>Yaquina Head lighthouse print</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
+        <title>Microsoft Journal App Concept</title>
+        <description>&lt;p&gt;Conceptual design for a journal application for a pen and touch based Microsoft tablet. Focused on the task of capturing thoughts and ideas, the app consists of a basic set of drawing tools as well as support for 3rd party extensions such as sticky notes or templates. The user can import images, bookmarks or even video clips. Additionally the app makes it easy to organize and move objects between pages.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 03 Dec 2014 11:12:47 -0800</pubDate>
-        <link>http://www.brian-levy.com/work/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://www.brian-levy.com/work/welcome-to-jekyll</guid>
+        <pubDate>Mon, 20 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/microsoft-journal-app</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/microsoft-journal-app</guid>
+        
+        <category>featured</category>
+        
+        <category>ux</category>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>Amazon Roku Interface</title>
+        <description>&lt;p&gt;Redesign of the Amazon Instant Video channel interface for the Roku set-top box. The primary goal of this design was to take advantage of new grid based templates made available by Roku. Additionally, the visual design elements were inspired by the Kindle Fire UI which was released around the same time.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/amazon-roku-interface</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/amazon-roku-interface</guid>
+        
+        <category>featured</category>
+        
+        <category>ux</category>
+        
+        <category>visual design</category>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>Oregon Coast Lighthouse Print</title>
+        <description>&lt;p&gt;Illustration and 2-color hand pulled screen print of the Yaquina Head Lighthouse in Newport, Oregon.  &lt;a href=&quot;http://www.etsy.com/listing/179394758/oregon-coast-lighthouse-art-print&quot;&gt;Buy one&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/oregon-coast-lighthouse-print</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/oregon-coast-lighthouse-print</guid>
+        
+        <category>featured</category>
+        
+        <category>print</category>
+        
+        <category>screen printing</category>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>MSN Image Editing Tool</title>
+        <description>&lt;p&gt;A set of basic image editing tools for editors and producers to use that work inline with the publishing workflow. The idea is to reduce the need to jump out of the workflow to edit images in a tool like Photoshop. This simple set of tools provide basic image editing functionality such as brightness/contrast and cropping. The tools have some basic presets to help the non-professional to produce quality results.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/msn-image-edit</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/msn-image-edit</guid>
+        
+        <category>featured</category>
+        
+        <category>ux</category>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>MSN Hero Slide Editor</title>
+        <description>&lt;p&gt;A tool to create, edit and schedule hero slides for the MSN homepage. The hero slides on the MSN homepage are constantly changing throughout the day. The producers needed a tool to easily and quickly create slides on the fly as well as in advance and then schedule those slides to go live on the homepage.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/msn-hero-slide-editor</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/msn-hero-slide-editor</guid>
+        
+        <category>featured</category>
+        
+        <category>ux</category>
+        
+        <category>visual design</category>
+        
+        <category>interaction design</category>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>Social Distortion Guitar Pedal Print</title>
+        <description>&lt;p&gt;Illustration and 2-color hand pulled screen print.  &lt;a href=&quot;https://www.etsy.com/listing/174665617/social-distortion-guitar-pedal-poster&quot;&gt;Buy one&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/social-distortion-print</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/social-distortion-print</guid>
+        
+        <category>featured</category>
+        
+        <category>print</category>
+        
+        <category>screen printing</category>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>Pernod Sales Support App</title>
+        <description>&lt;p&gt;Concept for an iPad app for outside sales staff to store and manage client information. The sales person can store a list of their clients’ menu items to keep track of the products that they stock. They can also calculate the cost difference of using Pernod versus competing brands.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/pernod-sales-support</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/pernod-sales-support</guid>
+        
+        <category>featured</category>
+        
+        <category>ux</category>
+        
+        <category>interaction design</category>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>Graduation Announcement</title>
+        <description>&lt;p&gt;2-sided 2-color hand pulled screen printed graduation announcement.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/graduation-announcement</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/graduation-announcement</guid>
+        
+        <category>featured</category>
+        
+        <category>print</category>
+        
+        <category>screen printing</category>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>Dungeness Crab Art Print</title>
+        <description>&lt;p&gt;Illustration and 2-color hand pulled screen print.  &lt;a href=&quot;https://www.etsy.com/listing/174653601/dungeness-crab-art-print&quot;&gt;Buy one&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/dungeness-crab-print</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/dungeness-crab-print</guid>
+        
+        <category>featured</category>
+        
+        <category>print</category>
+        
+        <category>screen printing</category>
         
         
         <category>work</category>

@@ -16,6 +16,15 @@ module.exports = function(grunt) {
     },
 
     sass: {
+      
+      dist: {
+        options: {
+          style: "compressed"
+        },
+        files: {
+          "css/global-unprefixed-min.css": "scss/global.scss"
+        }
+      },
       global: {
         options: {
           style: "expanded"
@@ -27,6 +36,10 @@ module.exports = function(grunt) {
     },
 
     autoprefixer: {
+      dist: {
+        src: "css/global-unprefixed-min.css",
+        dest: "css/main-min.css"
+      },
       global: {
         src: "css/global-unprefixed.css",
         dest: "css/main.css"
@@ -35,7 +48,7 @@ module.exports = function(grunt) {
 
     shell: {
       jekyllServe: {
-        command: "jekyll serve --baseurl="
+        command: "jekyll serve --baseurl ''"
       },
       jekyllBuild: {
         command: "jekyll build --config _config.yml"
@@ -77,12 +90,29 @@ module.exports = function(grunt) {
           "_includes/svg-defs.svg": ["svg/*.svg"]
         }
       }
+    },
+
+    imagemin: {                           
+      dynamic: {
+        options: {
+          optimizationLevel: 5
+        },                         
+        files: [{
+          expand: true,                  
+          cwd: 'img/uncompressed',                   
+          src: ['**/*.{png,jpg,gif}'],   
+          dest: 'img/'
+        }]
+      }
     }
+    
+
 
   });
 
   require("load-grunt-tasks")(grunt);
 
+  //grunt.registerTask("imagemin", ["imagemin"]);
   grunt.registerTask("serve", ["shell:jekyllServe"]);
   grunt.registerTask("default", ["sass", "autoprefixer", "svgstore", "shell:jekyllBuild", "watch"]);
 
