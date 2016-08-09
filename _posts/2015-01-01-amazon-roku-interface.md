@@ -12,11 +12,13 @@ tags:
 - visual design
 thumb: tile_amzn-roku.png
 images: 
-- image: amzn_roku_home_full.jpg
+- image: amzn-roku-w-tv-home.jpg
   caption: Home screen
   alt: Amazon Roku Channel home screen
-- image: amzn_roku_grid_full.jpg
+  border: no-border
+- image: amzn-roku-w-tv-grid.jpg
   caption: Video category grid
   alt: Amazon Channel category grid view
+  border: no-border
 ---
 Redesign of the Amazon Instant Video channel interface for the Roku set-top box. The primary goal of this design was to take advantage of new grid based templates made available by Roku. Additionally, the visual design elements were inspired by the Kindle Fire UI which was released around the same time.

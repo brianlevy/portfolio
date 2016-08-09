@@ -17,4 +17,4 @@ images:
 - image: sd_poster_vignette_600.jpg
   alt: Social Distortion print
 ---
-Illustration and 2-color hand pulled screen print.  [Buy one](https://www.etsy.com/listing/174665617/social-distortion-guitar-pedal-poster)
+Illustration and 2-color hand pulled screen print.

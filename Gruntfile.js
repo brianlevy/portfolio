@@ -48,7 +48,7 @@ module.exports = function(grunt) {
 
     shell: {
       jekyllServe: {
-        command: "jekyll serve --baseurl ''"
+        command: "jekyll serve --baseurl '' --port '4001'"
       },
       jekyllBuild: {
         command: "jekyll build --config _config.yml"

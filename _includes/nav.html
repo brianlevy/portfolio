@@ -1,21 +1,5 @@
-<!--<div class="site-nav">
-	<ul>
-		<li>
-			<a href="{{ site.baseurl }}/">Work</a>
-		</li>
-		{% for page in site.pages %}
-        {% if page.title %}
-        <li>
-        	<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-    	</li>
-          {% endif %}
-        {% endfor %}
-	</ul>
-  {% include social-links.html %}
-</div>-->
-
 <div class="site-nav">
-  <ul>
+  <ul class="main">
     {% for item in site.navigation %}
       {% assign class = '' %}
       {% if page.nav == item.title %}
@@ -29,5 +13,5 @@
   {% endfor %}
 
   </ul>
-  {% include social-links.html %}
+  {% include contact-links.html %}
 </div>

@@ -1,13 +1,10 @@
-<ul class="social-links">
+<ul class="contact-links">
   {% if site.instagram_username %}
   <li>
     <a href="https://instagram.com/{{ site.instagram_username }}">
-      <div class="icon icon-social">
-        <svg viewBox="0 0 32 32">
+        <svg class="icon" viewBox="0 0 32 32">
           <use xlink:href="#shape-instagram" />
         </svg>
-
-      </div>
     </a>
   </li>
   {% endif %}
@@ -15,12 +12,9 @@
   {% if site.twitter_username %}
   <li>
     <a href="https://twitter.com/{{ site.twitter_username }}">
-      <div class="icon icon-social">
-        <svg viewBox="0 0 32 32">
+        <svg class="icon" viewBox="0 0 32 32">
           <use xlink:href="#shape-twitter" />
         </svg>
-
-      </div>
     </a>
   </li>
   {% endif %}
@@ -28,24 +22,18 @@
   {% if site.linkedin_username %}
   <li>
     <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
-      <div class="icon icon-social">
-        <svg viewBox="0 0 32 32">
+        <svg class="icon" viewBox="0 0 32 32">
           <use xlink:href="#shape-linkedin" />
         </svg>
-
-      </div>
     </a>
   </li>
    {% endif %}
     {% if site.email %}
   <li>
     <a href="mailto:{{ site.email }}">
-      <div class="icon icon-social">
-        <svg viewBox="0 0 32 32">
+        <svg class="icon" viewBox="0 0 32 32">
           <use xlink:href="#shape-mail" />
         </svg>
-
-      </div>
     </a>
   </li>
   {% endif %}  

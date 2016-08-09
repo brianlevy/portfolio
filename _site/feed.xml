@@ -2,13 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Design Portfolio of Brian Levy</title>
-    <description>I am an interaction &amp; graphic designer living a short boat ride from Seattle. A problem solver at heart, I’m most satisfied working in the space where form and function meet.
+    <description>Hello, I am a designer specializing in interaction and user interface design. I&#39;m at my best digging into design problems to find solutions that make software easier to use for humans. 
 </description>
     <link>http://www.brian-levy.com/</link>
     <atom:link href="http://www.brian-levy.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 28 Jan 2016 17:03:49 -0800</pubDate>
-    <lastBuildDate>Thu, 28 Jan 2016 17:03:49 -0800</lastBuildDate>
+    <pubDate>Mon, 20 Jun 2016 12:43:45 -0700</pubDate>
+    <lastBuildDate>Mon, 20 Jun 2016 12:43:45 -0700</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Microsoft Business Center</title>
+        <description>&lt;p&gt;Concept for a business customer portal where a customer can view all of their products and services in one place. Existing systems don’t allow a customer to see all of their Microsoft products and services. This concept allows them to see all aspects of their Microsoft assets including software, cloud services and support. Additionally, the customer is enabled to purchase directly from Microsoft.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
+        <link>http://www.brian-levy.com/work/microsoft-business-customer-portal</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/microsoft-business-customer-portal</guid>
+        
+        <category>featured</category>
+        
+        <category>ux</category>
+        
+        
+        <category>work</category>
+        
+      </item>
     
       <item>
         <title>Billy Zoom Screen Print</title>
@@ -104,12 +121,37 @@
       </item>
     
       <item>
-        <title>MSN Hero Slide Editor</title>
-        <description>&lt;p&gt;A tool to create, edit and schedule hero slides for the MSN homepage. The hero slides on the MSN homepage are constantly changing throughout the day. The producers needed a tool to easily and quickly create slides on the fly as well as in advance and then schedule those slides to go live on the homepage.&lt;/p&gt;
+        <title>MSN Hero Slide Show Manager</title>
+        <description>&lt;p&gt;A tool to create, edit and schedule hero slideshows for the MSN homepage. The hero slideshows on the MSN homepage are constantly changing throughout the day. The content producers needed a tool to enable them to quickly and easily assemble slideshows and post them on the homepage. With stories constantly changing, the app allows the producers to post slideshows on the fly as well as schedule them in advance.&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://www.brian-levy.com/work/msn-hero-slide-editor</link>
-        <guid isPermaLink="true">http://www.brian-levy.com/work/msn-hero-slide-editor</guid>
+        <link>http://www.brian-levy.com/work/msn-hero-slide-manager</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/msn-hero-slide-manager</guid>
+        
+        <category>featured</category>
+        
+        <category>ux</category>
+        
+        <category>visual design</category>
+        
+        <category>interaction design</category>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>MSN Hero Slide Builder</title>
+        <description>&lt;p&gt;A tool to create and edit hero slides for the MSN homepage. The hero slides are the most prominent pieces of content on the MSN homepage. There can be 10 to 20 slides at any given time on the various editions of MSN. The primary users for this tool are the MSN editors who are primarily concerned with the editorial content.&lt;/p&gt;
+
+&lt;p&gt;The existing tools being used were heavily form based. The drawbacks to these existing tools are that it is impossible to see in advance the combination of type and image. It is a matter of trial and error to optimize copyfitting and image cropping.&lt;/p&gt;
+
+&lt;p&gt;The primary design approach was to create as much of a WYSIWYG experience as possible. This enabled the editor to see how the headlines and copy fit in the context of the slide layouts.   &lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/msn-hero-slide-creator</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/msn-hero-slide-creator</guid>
         
         <category>featured</category>
         
@@ -126,7 +168,7 @@
     
       <item>
         <title>Social Distortion Guitar Pedal Print</title>
-        <description>&lt;p&gt;Illustration and 2-color hand pulled screen print.  &lt;a href=&quot;https://www.etsy.com/listing/174665617/social-distortion-guitar-pedal-poster&quot;&gt;Buy one&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;Illustration and 2-color hand pulled screen print.&lt;/p&gt;
 </description>
         <pubDate>Thu, 09 Apr 2015 00:00:00 -0700</pubDate>
         <link>http://www.brian-levy.com/work/social-distortion-print</link>
@@ -156,44 +198,6 @@
         <category>ux</category>
         
         <category>interaction design</category>
-        
-        
-        <category>work</category>
-        
-      </item>
-    
-      <item>
-        <title>Graduation Announcement</title>
-        <description>&lt;p&gt;2-sided 2-color hand pulled screen printed graduation announcement.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 05 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://www.brian-levy.com/work/graduation-announcement</link>
-        <guid isPermaLink="true">http://www.brian-levy.com/work/graduation-announcement</guid>
-        
-        <category>featured</category>
-        
-        <category>print</category>
-        
-        <category>screen printing</category>
-        
-        
-        <category>work</category>
-        
-      </item>
-    
-      <item>
-        <title>Dungeness Crab Art Print</title>
-        <description>&lt;p&gt;Illustration and 2-color hand pulled screen print.  &lt;a href=&quot;https://www.etsy.com/listing/174653601/dungeness-crab-art-print&quot;&gt;Buy one&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 04 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://www.brian-levy.com/work/dungeness-crab-print</link>
-        <guid isPermaLink="true">http://www.brian-levy.com/work/dungeness-crab-print</guid>
-        
-        <category>featured</category>
-        
-        <category>print</category>
-        
-        <category>screen printing</category>
         
         
         <category>work</category>

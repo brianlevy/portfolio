@@ -9,15 +9,17 @@ nav: work
 
   {% for page in site.pages %}
     {% if page.url == "/about/" %}
-        <p>{{ page.excerpt }}
+        <p class="intro">{{ page.excerpt }}
         &hellip; <a href="{{ page.url }}">more about me</a></p>
     {% endif %}
   {% endfor %} 
   <h2>Work</h2>
-  <ul class="project-list">
+  <h3>UX</h3>
+    <ul class="project-list">
+
     {% for post in site.posts %}
-    <!--{% for tag in post.tags %}
-    {% if tag == "featured" %}-->
+      {% for tag in post.tags %}
+        {% if tag == "ux" %}
       <li>
         <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
         <div class="thumb">
@@ -28,9 +30,33 @@ nav: work
         </div>
         
       </li>
-    <!--{% endif %}
-    {% endfor %}-->  
+        {% endif %}
+      {% endfor %} 
     {% endfor %}
   </ul>
+
+  <h3>Print etc.</h3>
+  <ul class="project-list">
+  {% for post in site.posts %}
+      {% for tag in post.tags %}
+        {% if tag == "print" %}
+      <li>
+        <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+        <div class="thumb {% if post.thumb-shadow %} {{ post.thumb-shadow }} {% endif %}">
+          <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
+            <img src="{{ site.proj-imgpath }}{{ post.thumb }}" title="{{ post.title }}"/>
+            <h2>{{ post.title }}</h2>
+          </a>
+        </div>
+        
+      </li>
+        {% endif %}
+      {% endfor %} 
+    {% endfor %}
+  </ul>
+
+
+
+
   <!--<a class="more" href="/work">More projects</a>-->
 </div>

@@ -3,10 +3,10 @@ layout: page
 title: About Brian Levy
 permalink: /about/
 nav: about
-excerpt: "Hi. I am an interaction & graphic designer living a short boat ride from Seattle. A problem solver at heart, I’m most satisfied working in the space where form and function meet" 
+excerpt: "Hello, I am a designer specializing in interaction and user interface design. I'm at my best digging into design problems to find solutions that make software easier for people to use" 
 ---
 
-I have been designing interfaces for the web since 2000. I started my career working in print and environmental graphics. I&rsquo;ve recently started screen printing my own posters and I still love doing the occasional logo or t-shirt.
+I have been designing interfaces for the web since 2000. I started my career working in print and environmental graphics. I still love designing logos and t-shirts and screen printing posters.
 
 When I’m not working, I’d rather be camping, surfing, skateboarding, playing guitar, building stuff and generally enjoying the great Northwest.
 
