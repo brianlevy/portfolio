@@ -3,17 +3,21 @@ layout: post
 title:  "MSN Publishing Tools"
 description: Redesign of the MSN publishing tools platform.
 keywords: visual design, interaction design, user experience design, Microsoft, MSN
-date:   2015-04-03
+date:   2016-01-01
 categories: 
 - work
-tags:
-- featured
 - ux
+tags:
 - visual design
-thumb: tile_msn-tools.jpg
-images: 
+- information design
+thumb: hero-msn-cms.png
+hero: hero-msn-cms-wide.png
+images:
+- image: bedrock_explorer_before.png
+  caption: Content explorer before
+  alt: MSN publishing content explorer 
 - image: msn_tools_1_full.png
-  caption: Content explorer
+  caption: Content explorer after
   alt: MSN publishing content explorer
 - image: msn_tools_2_full.png
   caption: Page editing interface

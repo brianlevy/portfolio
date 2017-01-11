@@ -31,7 +31,6 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $grey-color-light;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -39,6 +38,9 @@ p {
     font-size: $base-font-size;
     @include media-query($on-palm) {
         font-size: $base-text-size;
+    }
+    &.intro {
+        font-size: 1.142rem;
     }
 }
 
@@ -77,6 +79,8 @@ figure > img {
 
 figcaption {
     font-size: $small-font-size;
+    text-align: center;
+    background-color: $grey-color-light;
 }
 
 
@@ -101,9 +105,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     margin-bottom: .333em;
 }
-h2 { font-size: 1.25em; }
-h3 { font-size: 1em; }
-h4 { font-size: .875em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.125em; }
+h4 { font-size: 1em; }
 
 /**
  * Links
@@ -205,36 +209,35 @@ pre {
  */
 .icon {
 
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
 
-        path, use {
-            fill: $grey-color;
-        }
-        &:hover {
-            
-            path, use {         
-                fill: $link-color;
-            }
+    path, use {
+        fill: $grey-color-dark;
+    }
+    &:hover {
+        
+        path, use {         
+            fill: $accent-orange;
         }
     }
+
 }
-.icon-social {
+.icon-contact {
+    position: relative;
+    display: block;
+    height: 16px;
+    width: 16px;
 
-    > svg {
-        height: 32px;
-        width: 32px;
-
-        &:hover {
-            
-            path, use {         
-                fill: $link-color;
-            }
+    &:hover {
+        
+        path, use {         
+            fill: $link-color;
         }
     }
+
 }
 
 

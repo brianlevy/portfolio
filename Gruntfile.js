@@ -114,6 +114,6 @@ module.exports = function(grunt) {
 
   //grunt.registerTask("imagemin", ["imagemin"]);
   grunt.registerTask("serve", ["shell:jekyllServe"]);
-  grunt.registerTask("default", ["sass", "autoprefixer", "svgstore", "shell:jekyllBuild", "watch"]);
+  grunt.registerTask("default", ["uglify", "sass", "autoprefixer", "svgstore", "shell:jekyllBuild", "watch"]);
 
 };

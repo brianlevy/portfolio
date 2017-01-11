@@ -7,9 +7,15 @@
     {% include svg-defs.svg %}
     <div class="page-wrap">
 
-      {% include header.html %}
+      <header id="header" class="site-header">
+         {% include header.html %}
+      </header>
 
       <div class="page-content page">
+        <header class="post-header">
+            <h1 class="post-title">{{ page.title }}</h1>
+           <img src="{{ site.baseurl }}{{ site.proj-imgpath }}{{ page.hero }}" />
+        </header>
           {{ content }}
       </div>
 

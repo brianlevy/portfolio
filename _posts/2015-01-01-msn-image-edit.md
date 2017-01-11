@@ -3,13 +3,16 @@ layout: post
 title:  "MSN Image Editing Tool"
 description: Web-based image editing tools for MSN editors and producers.
 keywords: interaction design, user experience design, Microsoft, visual design
-date:   2015-04-12
+date:   2016-04-04
 categories: 
 - work
-tags:
-- featured
 - ux
-thumb: tile_msn-image-edit-2.png
+tags:
+- interaction design
+- visual design
+- prototyping
+thumb: hero-msn-img-edit.png
+hero: hero-msn-img-edit-wide.png
 images:
 - image: msn_img_edit_start_full.jpg
   caption: Start screen

@@ -1,5 +1,6 @@
-$base-font-family:    "proxima-nova", Helvetica, Arial, sans-serif;
-$display-font-family: "futura-pt", Helvetica, Arial, sans-serif;;
+$base-font-family:    "museo-slab", Georgia, Times, serif;
+
+$display-font-family: "futura-pt", Helvetica, Arial, sans-serif;
 $logo-type-font:      "futura-pt", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-text-size:   $base-font-size * 0.875;
@@ -16,7 +17,8 @@ $padding-lg:       20px;
 $text-color:       #333;
 $background-color: #f1f2f1;
 $brand-color:      #e1643d;
-$link-color: 	   #faa61b;
+$accent-orange:	   #ffad26;
+$link-color: 	   $accent-orange;
 $color-white:      #ffffff;
 
 $grey-color:       #828282;
@@ -39,3 +41,19 @@ $on-desktop-min:   1024px;
 $on-palm: 		   480px;
 $on-laptop:        640px;
 $on-desktop:       1024px;
+
+// Mixins
+
+//--Media queries
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}

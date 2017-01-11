@@ -2,32 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Design Portfolio of Brian Levy</title>
-    <description>I am an interaction &amp; graphic designer living a short boat ride from Seattle. A problem solver at heart, I’m most satisfied working in the space where form and function meet.
+    <description>Hello, I am a designer specializing in interaction and user interface design. I'm at my best digging into design problems to find solutions that make software easier to use for humans. 
 </description>
     <link>http://www.brian-levy.com/</link>
     <atom:link href="http://www.brian-levy.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 28 Jan 2016 17:03:49 -0800</pubDate>
-    <lastBuildDate>Thu, 28 Jan 2016 17:03:49 -0800</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Fri, 06 Jan 2017 14:48:35 -0800</pubDate>
+    <lastBuildDate>Fri, 06 Jan 2017 14:48:35 -0800</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Billy Zoom Screen Print</title>
-        <description>&lt;p&gt;2-color hand pulled screen print to commemorate the return of Billy Zoom from his treatment for cancer. &lt;/p&gt;
+        <title>T-Mobile Digits</title>
+        <description>&lt;p&gt;T-Mobile Digits aims to tackle the problem of one phone number being tied to a single device. Digits allows a user to have multiple phone numbers on a single device and have those numbers available across multiple devices. The user can make calls and send text messages from multiple lines on one device removing the need to carry two phones for personal and work use, for example. Once logged in on a device, all of the users contacts messages and call history for all of their numbers are available.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.etsy.com/listing/256703463/billy-zoom-screen-print&quot;&gt;Buy one&lt;/a&gt;. 50% of the proceeds go to &lt;a href=&quot;https://www.gofundme.com/yx66a4&quot;&gt;Billy’s cancer fund&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 26 Nov 2015 00:00:00 -0800</pubDate>
-        <link>http://www.brian-levy.com/work/billy-zoom-print</link>
-        <guid isPermaLink="true">http://www.brian-levy.com/work/billy-zoom-print</guid>
+        <pubDate>Mon, 08 Aug 2016 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/ux/t-mobile-digits</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/ux/t-mobile-digits</guid>
         
-        <category>featured</category>
+        <category>visual design</category>
         
-        <category>print</category>
-        
-        <category>screen printing</category>
+        <category>interaction design</category>
         
         
         <category>work</category>
+        
+        <category>ux</category>
+        
+      </item>
+    
+      <item>
+        <title>Microsoft Business Center</title>
+        <description>&lt;p&gt;Concept for a business customer portal where a customer can view all of their products and services in one place enabling them to make informed business decisions as they relate to their Microsoft hardware, software and cloud services.&lt;/p&gt;
+
+&lt;p&gt;Existing systems don’t allow a customer to see all of their Microsoft products and services or even do business directly with Microsoft. This prevents them from having a complete picture of their business.&lt;/p&gt;
+
+&lt;p&gt;This concept allows them to see all aspects of their Microsoft assets including software, cloud services and support allowing them to manage those assets – to increase or decrease licenses – as their business evolves.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Jul 2016 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/ux/microsoft-business-customer-portal</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/ux/microsoft-business-customer-portal</guid>
+        
+        <category>information design</category>
+        
+        <category>visual design</category>
+        
+        <category>prototyping</category>
+        
+        
+        <category>work</category>
+        
+        <category>ux</category>
         
       </item>
     
@@ -35,16 +59,18 @@
         <title>Microsoft Journal App Concept</title>
         <description>&lt;p&gt;Conceptual design for a journal application for a pen and touch based Microsoft tablet. Focused on the task of capturing thoughts and ideas, the app consists of a basic set of drawing tools as well as support for 3rd party extensions such as sticky notes or templates. The user can import images, bookmarks or even video clips. Additionally the app makes it easy to organize and move objects between pages.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 20 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://www.brian-levy.com/work/microsoft-journal-app</link>
-        <guid isPermaLink="true">http://www.brian-levy.com/work/microsoft-journal-app</guid>
+        <pubDate>Mon, 06 Jun 2016 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/ux/microsoft-journal-app</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/ux/microsoft-journal-app</guid>
         
-        <category>featured</category>
+        <category>interaction design</category>
         
-        <category>ux</category>
+        <category>visual design</category>
         
         
         <category>work</category>
+        
+        <category>ux</category>
         
       </item>
     
@@ -52,37 +78,18 @@
         <title>Amazon Roku Interface</title>
         <description>&lt;p&gt;Redesign of the Amazon Instant Video channel interface for the Roku set-top box. The primary goal of this design was to take advantage of new grid based templates made available by Roku. Additionally, the visual design elements were inspired by the Kindle Fire UI which was released around the same time.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 18 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://www.brian-levy.com/work/amazon-roku-interface</link>
-        <guid isPermaLink="true">http://www.brian-levy.com/work/amazon-roku-interface</guid>
-        
-        <category>featured</category>
-        
-        <category>ux</category>
+        <pubDate>Thu, 05 May 2016 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/ux/amazon-roku-interface</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/ux/amazon-roku-interface</guid>
         
         <category>visual design</category>
         
-        
-        <category>work</category>
-        
-      </item>
-    
-      <item>
-        <title>Oregon Coast Lighthouse Print</title>
-        <description>&lt;p&gt;Illustration and 2-color hand pulled screen print of the Yaquina Head Lighthouse in Newport, Oregon.  &lt;a href=&quot;http://www.etsy.com/listing/179394758/oregon-coast-lighthouse-art-print&quot;&gt;Buy one&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 15 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://www.brian-levy.com/work/oregon-coast-lighthouse-print</link>
-        <guid isPermaLink="true">http://www.brian-levy.com/work/oregon-coast-lighthouse-print</guid>
-        
-        <category>featured</category>
-        
-        <category>print</category>
-        
-        <category>screen printing</category>
+        <category>ui design</category>
         
         
         <category>work</category>
+        
+        <category>ux</category>
         
       </item>
     
@@ -90,30 +97,30 @@
         <title>MSN Image Editing Tool</title>
         <description>&lt;p&gt;A set of basic image editing tools for editors and producers to use that work inline with the publishing workflow. The idea is to reduce the need to jump out of the workflow to edit images in a tool like Photoshop. This simple set of tools provide basic image editing functionality such as brightness/contrast and cropping. The tools have some basic presets to help the non-professional to produce quality results.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 12 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://www.brian-levy.com/work/msn-image-edit</link>
-        <guid isPermaLink="true">http://www.brian-levy.com/work/msn-image-edit</guid>
+        <pubDate>Mon, 04 Apr 2016 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/ux/msn-image-edit</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/ux/msn-image-edit</guid>
         
-        <category>featured</category>
+        <category>interaction design</category>
         
-        <category>ux</category>
+        <category>visual design</category>
+        
+        <category>prototyping</category>
         
         
         <category>work</category>
         
+        <category>ux</category>
+        
       </item>
     
       <item>
-        <title>MSN Hero Slide Editor</title>
-        <description>&lt;p&gt;A tool to create, edit and schedule hero slides for the MSN homepage. The hero slides on the MSN homepage are constantly changing throughout the day. The producers needed a tool to easily and quickly create slides on the fly as well as in advance and then schedule those slides to go live on the homepage.&lt;/p&gt;
+        <title>MSN Hero Slide Show Manager</title>
+        <description>&lt;p&gt;A tool to create, edit and schedule hero slideshows for the MSN homepage. The hero slideshows on the MSN homepage are constantly changing throughout the day. The content producers needed a tool to enable them to quickly and easily assemble slideshows and post them on the homepage. With stories constantly changing, the app allows the producers to post slideshows on the fly as well as schedule them in advance.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 10 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://www.brian-levy.com/work/msn-hero-slide-editor</link>
-        <guid isPermaLink="true">http://www.brian-levy.com/work/msn-hero-slide-editor</guid>
-        
-        <category>featured</category>
-        
-        <category>ux</category>
+        <pubDate>Thu, 03 Mar 2016 00:00:00 -0800</pubDate>
+        <link>http://www.brian-levy.com/work/ux/msn-hero-slide-manager</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/ux/msn-hero-slide-manager</guid>
         
         <category>visual design</category>
         
@@ -122,81 +129,91 @@
         
         <category>work</category>
         
-      </item>
-    
-      <item>
-        <title>Social Distortion Guitar Pedal Print</title>
-        <description>&lt;p&gt;Illustration and 2-color hand pulled screen print.  &lt;a href=&quot;https://www.etsy.com/listing/174665617/social-distortion-guitar-pedal-poster&quot;&gt;Buy one&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 09 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://www.brian-levy.com/work/social-distortion-print</link>
-        <guid isPermaLink="true">http://www.brian-levy.com/work/social-distortion-print</guid>
-        
-        <category>featured</category>
-        
-        <category>print</category>
-        
-        <category>screen printing</category>
-        
-        
-        <category>work</category>
-        
-      </item>
-    
-      <item>
-        <title>Pernod Sales Support App</title>
-        <description>&lt;p&gt;Concept for an iPad app for outside sales staff to store and manage client information. The sales person can store a list of their clients’ menu items to keep track of the products that they stock. They can also calculate the cost difference of using Pernod versus competing brands.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 08 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://www.brian-levy.com/work/pernod-sales-support</link>
-        <guid isPermaLink="true">http://www.brian-levy.com/work/pernod-sales-support</guid>
-        
-        <category>featured</category>
-        
         <category>ux</category>
+        
+      </item>
+    
+      <item>
+        <title>MSN Hero Slide Builder</title>
+        <description>&lt;p&gt;A tool to create and edit hero slides for the MSN homepage. The hero slides are the most prominent pieces of content on the MSN homepage. There can be 10 to 20 slides at any given time on the various editions of MSN. The primary users for this tool are the MSN editors who are primarily concerned with the editorial content.&lt;/p&gt;
+
+&lt;p&gt;The existing tools being used were heavily form based. The drawbacks to these existing tools are that it is impossible to see in advance the combination of type and image. It is a matter of trial and error to optimize copyfitting and image cropping.&lt;/p&gt;
+
+&lt;p&gt;The primary design approach was to create as much of a WYSIWYG experience as possible. This enabled the editor to see how the headlines and copy fit in the context of the slide layouts.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 02 Feb 2016 00:00:00 -0800</pubDate>
+        <link>http://www.brian-levy.com/work/ux/msn-hero-slide-creator</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/ux/msn-hero-slide-creator</guid>
+        
+        <category>visual design</category>
         
         <category>interaction design</category>
         
         
         <category>work</category>
         
+        <category>ux</category>
+        
       </item>
     
       <item>
-        <title>Graduation Announcement</title>
-        <description>&lt;p&gt;2-sided 2-color hand pulled screen printed graduation announcement.&lt;/p&gt;
+        <title>MSN Publishing Tools</title>
+        <description>&lt;p&gt;Redesign of the MSN publishing tools platform. Primarily a visual update with little change in functionality. The primary objective was to reduce visual clutter, improve the informational design and give the product an updated look based on the Modern UI design language.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 05 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://www.brian-levy.com/work/graduation-announcement</link>
-        <guid isPermaLink="true">http://www.brian-levy.com/work/graduation-announcement</guid>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
+        <link>http://www.brian-levy.com/work/ux/msn-publishing-tools</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/ux/msn-publishing-tools</guid>
         
-        <category>featured</category>
+        <category>visual design</category>
         
-        <category>print</category>
+        <category>information design</category>
+        
+        
+        <category>work</category>
+        
+        <category>ux</category>
+        
+      </item>
+    
+      <item>
+        <title>Santa Cruz Poster</title>
+        <description>&lt;p&gt;16x20 3-color hand pulled screen print. Printed on 100# French Recycled White paper.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.etsy.com/listing/450152772/santa-cruz-lighthouse-sunset-screen&quot;&gt;Buy one&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 08 Aug 2015 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/print/sc-lighthouse-print</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/print/sc-lighthouse-print</guid>
+        
+        <category>design</category>
         
         <category>screen printing</category>
         
         
         <category>work</category>
         
+        <category>print</category>
+        
       </item>
     
       <item>
-        <title>Dungeness Crab Art Print</title>
-        <description>&lt;p&gt;Illustration and 2-color hand pulled screen print.  &lt;a href=&quot;https://www.etsy.com/listing/174653601/dungeness-crab-art-print&quot;&gt;Buy one&lt;/a&gt;&lt;/p&gt;
+        <title>Anchor Art Print</title>
+        <description>&lt;p&gt;11x14 2-color hand pulled screen print. Printed on 100# French Recycled White paper.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.etsy.com/listing/182892904/california-highway-1-screen-print-16x20&quot;&gt;Buy one&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 04 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://www.brian-levy.com/work/dungeness-crab-print</link>
-        <guid isPermaLink="true">http://www.brian-levy.com/work/dungeness-crab-print</guid>
+        <pubDate>Sat, 06 Jun 2015 00:00:00 -0700</pubDate>
+        <link>http://www.brian-levy.com/work/print/anchor-print</link>
+        <guid isPermaLink="true">http://www.brian-levy.com/work/print/anchor-print</guid>
         
-        <category>featured</category>
-        
-        <category>print</category>
+        <category>design</category>
         
         <category>screen printing</category>
         
         
         <category>work</category>
+        
+        <category>print</category>
         
       </item>
     
