@@ -11,7 +11,7 @@ I have been designing interfaces for the web since 2000. I started my career wor
 
 When I’m not working, I’d rather be camping, surfing, skateboarding, playing guitar, building stuff and generally enjoying the great Northwest.
 
-Download a copy of my [resume](/docs/brian-levy-ux-resume.pdf "PDF resume") (PDF 40 KB).
+Download a copy of my [resume](/docs/brian-levy-ux-resume.pdf "PDF resume") (PDF 90 KB).
 
 
 <h2>I bring to the table&hellip;</h2>
