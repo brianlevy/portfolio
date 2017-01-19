@@ -22,6 +22,8 @@ navigation:
 excerpt_separator: <!--more-->
 
 # Build settings
+source: "src"
+destination: "docs"
 markdown: kramdown
 exclude: [
 	.gitignore,
