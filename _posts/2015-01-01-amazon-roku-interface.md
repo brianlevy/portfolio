@@ -3,14 +3,15 @@ layout: post
 title:  "Amazon Roku Interface"
 description: Redesign of the Amazon Instant Video channel interface for the Roku set-top box.
 keywords: visual design, interaction design, user experience design, Amazon, Roku
-date:   2015-04-18
+date:   2016-05-05
 categories: 
 - work
-tags:
-- featured
 - ux
+tags:
 - visual design
-thumb: tile_amzn-roku.png
+- ui design
+thumb: hero-amzn-roku.jpg
+hero: hero-amzn-roku-wide.jpg
 images: 
 - image: amzn_roku_home_full.jpg
   caption: Home screen

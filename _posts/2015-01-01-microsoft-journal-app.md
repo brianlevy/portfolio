@@ -3,13 +3,16 @@ layout: post
 title:  "Microsoft Journal App Concept"
 description: Conceptual design for a journal application for a pen and touch based Microsoft tablet.
 keywords: conceptual design, visual design, interaction design, user experience design, tablet, touch, Microsoft
-date:   2015-04-20
+date:   2016-06-06
 categories: 
 - work
-tags:
-- featured
 - ux
-thumb: tile_ms-journal.png
+tags:
+- interaction design
+- visual design
+thumb: hero-ms-journal.jpg
+hero: hero-ms-journal-wide.jpg
+border: tablet
 images: 
 - image: ms_journal_home_full.jpg
   caption: Home screen
