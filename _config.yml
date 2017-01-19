@@ -3,13 +3,17 @@ title: The Design Portfolio of Brian Levy
 name: Brian Levy
 email: briandlevy@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
+<<<<<<< HEAD
   I am an interaction & graphic designer living a short boat ride from Seattle.
   A problem solver at heart, I’m most satisfied working in the space where form and function meet.
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog/
+=======
+  Hello, I am a designer specializing in interaction and user interface design. I'm at my best digging into design problems to find solutions that make software easier to use for humans. 
 baseurl: "/portfolio" # the subpath of your site, e.g. /blog/
 url: "http://www.brian-levy.com" # the base hostname & protocol for your site
 keywords: ux, ux design, user experience, user experience design, graphic design, interaction design, visual design, web design, screen printing, logo design, seattle, puget sound, bainbridge island
 host: 0.0.0.0
-twitter_username: evilbryan
+# twitter_username: evilbryan
 instagram_username: briandlevy
 linkedin_username: briandlevy
 github_username:  
@@ -23,6 +27,8 @@ navigation:
 excerpt_separator: <!--more-->
 
 # Build settings
+source: "src"
+destination: "docs"
 markdown: kramdown
 exclude: [
 	.gitignore,

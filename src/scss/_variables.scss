@@ -1,0 +1,59 @@
+$base-font-family:    "museo-slab", Georgia, Times, serif;
+
+$display-font-family: "futura-pt", Helvetica, Arial, sans-serif;
+$logo-type-font:      "futura-pt", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-text-size:   $base-font-size * 0.875;
+$small-font-size:  $base-font-size * 0.75;
+$base-line-height: 1.5;
+
+$spacing-unit:     20px;
+$spacing-base:     12px;
+$spacing-sm:       8px;
+$spacing-lg:       20px;
+$padding-base:     10px;
+$padding-lg:       20px;
+
+$text-color:       #333;
+$background-color: #f1f2f1;
+$brand-color:      #e1643d;
+$accent-orange:	   #ffad26;
+$link-color: 	   $accent-orange;
+$color-white:      #ffffff;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+
+$on-palm-min:      499px;
+$on-palm-max:      499px;
+
+$on-laptop-min:    500px;
+$on-laptop-max:    1023px;
+
+$on-desktop-min:   1024px;
+
+
+$on-palm: 		   480px;
+$on-laptop:        640px;
+$on-desktop:       1024px;
+
+// Mixins
+
+//--Media queries
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}

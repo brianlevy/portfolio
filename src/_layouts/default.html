@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include svg-defs.svg %}
+    <div class="page-wrap">
+      <header id="header" class="site-header home">
+         {% include header.html %}
+      </header>
+        <div class="page-content">
+          <div class="wrapper">
+            {{ content }}
+          </div>
+        </div>
+        {% include footer.html %}     
+    </div>
+    {% include scripts.html %}
+  </body>
+</html>

@@ -1,0 +1,63 @@
+---
+layout: default
+nav: work
+
+---
+
+  <div class="name-tag">
+    <div class="aspect-lock">
+      <div>
+        
+          <div class="logo">
+            <div class="logo-mark">
+              <svg viewBox="0 0 112 56">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-pencil-logo"></use>
+                </svg>
+            </div>
+            <div class="logo-type">
+              Brian Levy <em>Designer</em>
+            </div>
+            {% include nav.html %}
+          </div>
+
+      </div>
+    </div>
+
+  </div> 
+  <!--<h2>Work</h2>-->
+  <!--<h3>UX</h3>-->
+    <ul class="project-list">
+    {% for post in site.posts %}{% 
+      for category in post.categories %}{% 
+        if category == "ux" %}
+      <li>
+        <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+        <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
+          <div class="thumb">
+            <img src="{{ site.proj-imgpath }}{{ post.thumb }}" title="{{ post.title }}"/>            
+          </div>
+          <h2>{{ post.title }}</h2>
+        </a>        
+      </li>
+        {% endif %}{% 
+      endfor %}{% 
+    endfor %}
+  </ul>
+  <h3>Printed works</h3>
+  <ul class="project-list print">
+  {% for post in site.posts %}{% 
+    for category in post.categories %}{% 
+      if category == "print" %}
+      <li>
+        <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+        <div class="thumb {% if post.thumb-shadow %} {{ post.thumb-shadow }} {% endif %}">
+          <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">
+            <img src="{{ site.proj-imgpath }}{{ post.thumb }}" title="{{ post.title }}"/>
+            <h2>{{ post.title }}</h2>
+          </a>
+        </div>       
+      </li>
+        {% endif %}{% 
+      endfor %}{% 
+    endfor %}
+  </ul>

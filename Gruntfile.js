@@ -10,7 +10,7 @@ module.exports = function(grunt) {
     uglify: {
       global: {
         files: {
-          "js/site.min.js": ["js/site.js"]
+          "src/js/site.min.js": ["src/js/site.js"]
         }
       }
     },
@@ -22,7 +22,7 @@ module.exports = function(grunt) {
           style: "compressed"
         },
         files: {
-          "css/global-unprefixed-min.css": "scss/global.scss"
+          "src/css/global-unprefixed-min.css": "src/scss/global.scss"
         }
       },
       global: {
@@ -30,19 +30,19 @@ module.exports = function(grunt) {
           style: "expanded"
         },
         files: {
-          "css/global-unprefixed.css": "scss/global.scss"
+          "src/css/global-unprefixed.css": "src/scss/global.scss"
         }
       }
     },
 
     autoprefixer: {
       dist: {
-        src: "css/global-unprefixed-min.css",
-        dest: "css/main-min.css"
+        src: "src/css/global-unprefixed-min.css",
+        dest: "src/css/main-min.css"
       },
       global: {
-        src: "css/global-unprefixed.css",
-        dest: "css/main.css"
+        src: "src/css/global-unprefixed.css",
+        dest: "src/css/main.css"
       }
     },
 
@@ -64,15 +64,15 @@ module.exports = function(grunt) {
         tasks: ["shell:jekyllBuild"]
       },
       js: {
-        files: ["js/*.js"],
+        files: ["src/js/*.js"],
         tasks: ["uglify", "shell:jekyllBuild"]
       },
       css: {
-        files: ["scss/*.scss"],
+        files: ["src/scss/*.scss"],
         tasks: ["sass", "autoprefixer", "shell:jekyllBuild"]
       },
       svgIcons: {
-        files: ["svg/*.svg"],
+        files: ["src/svg/*.svg"],
         tasks: ["svgstore", "shell:jekyllBuild"]
       }
     },
@@ -87,7 +87,7 @@ module.exports = function(grunt) {
       },
       default: {
         files: {
-          "_includes/svg-defs.svg": ["svg/*.svg"]
+          "src/_includes/svg-defs.svg": ["src/svg/*.svg"]
         }
       }
     },
@@ -99,9 +99,9 @@ module.exports = function(grunt) {
         },                         
         files: [{
           expand: true,                  
-          cwd: 'img/uncompressed',                   
+          cwd: 'src/img/uncompressed',                   
           src: ['**/*.{png,jpg,gif}'],   
-          dest: 'img/'
+          dest: 'src/img/'
         }]
       }
     }
@@ -114,6 +114,6 @@ module.exports = function(grunt) {
 
   //grunt.registerTask("imagemin", ["imagemin"]);
   grunt.registerTask("serve", ["shell:jekyllServe"]);
-  grunt.registerTask("default", ["sass", "autoprefixer", "svgstore", "shell:jekyllBuild", "watch"]);
+  grunt.registerTask("default", ["uglify", "sass", "autoprefixer", "svgstore", "shell:jekyllBuild", "watch"]);
 
 };

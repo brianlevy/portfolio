@@ -1,0 +1,16 @@
+<div class="site-nav">
+  <ul class="main">
+    {% for item in site.navigation %}{% 
+      assign class = '' %}{% 
+        if page.nav == item.title %}{% 
+          assign class = 'active' %}{% 
+        endif %}
+      <li>
+        <a href="{{ item.url }}" class="{{ class }}">
+            {{ item.title }}
+        </a>
+      </li>
+  {% endfor %}
+  </ul>
+  {% include contact-links.html %}
+</div>

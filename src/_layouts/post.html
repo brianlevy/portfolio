@@ -1,0 +1,41 @@
+---
+layout: project
+nav: work
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+ <!--   <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>-->
+  <img src="{{ site.baseurl }}{{ site.proj-imgpath }}{{ page.hero }}" />
+  </header>
+
+  <article class="post-content">
+
+
+    <div class="proj-description">
+      {{ content }}
+      
+      <h2 class="roles">My role:</h2>
+      <ul class="tags">
+        {% for tag in page.tags%}
+        <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
+      
+    </div>
+    
+		<ul class="proj-img {% if page.img-display == 'grid' %}{{ page.img-display }}{% endif %}">
+    {% for item in page.images %}
+			<li class="{% if item.class == 'inline' %}{{ item.class }}{% endif %}">
+        <figure>
+  				<img class="" src="{{ site.baseurl }}{{ site.proj-imgpath }}{{ item.image }}" alt="{{ item.alt }}" title="{% if item.caption %}{{ item.caption }}{% else %}{{ item.alt }}{% endif %}"/>
+  				<figcaption>{{ item.caption }}</figcaption>
+        </figure>  
+			</li>
+    {% endfor %}
+  	</ul>
+
+  </article>
+
+</div>
