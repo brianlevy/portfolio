@@ -8,8 +8,8 @@ categories:
 - work
 - ux
 tags:
-- visual design
-- ui design
+- Visual design
+- UI design
 thumb: hero-amzn-roku.jpg
 hero: hero-amzn-roku-wide.jpg
 images: 

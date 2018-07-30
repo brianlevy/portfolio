@@ -8,9 +8,9 @@ categories:
 - work
 - ux
 tags:
-- interaction design
-- visual design
-- prototyping
+- Interaction design
+- Visual design
+- Prototyping
 thumb: hero-msn-img-edit.png
 hero: hero-msn-img-edit-wide.png
 images:

@@ -8,8 +8,8 @@ categories:
 - work
 - print
 tags:
-- design
-- screen printing
+- Design
+- Screen printing
 thumb: hero-anchor.png
 hero: hero-anchor-wide.jpg
 images:

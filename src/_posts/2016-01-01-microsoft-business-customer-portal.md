@@ -8,9 +8,9 @@ categories:
 - work
 - ux
 tags:
-- information design
-- visual design
-- prototyping
+- Information design
+- Visual design
+- Prototyping
 thumb: hero-ms-biz-ctr.png
 hero: hero-ms-biz-ctr-wide.png
 images: 

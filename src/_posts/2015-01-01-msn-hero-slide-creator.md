@@ -8,8 +8,8 @@ categories:
 - work
 - ux
 tags:
-- visual design
-- interaction design
+- Visual design
+- Interaction design
 thumb: hero-msn-slide-edit.png
 hero: hero-msn-slide-edit-wide.png
 images: 

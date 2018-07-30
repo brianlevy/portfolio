@@ -8,8 +8,8 @@ categories:
 - work
 - ux
 tags:
-- visual design
-- interaction design
+- Visual design
+- Interaction design
 thumb: hero-t-mobile-digits.png
 hero: hero-t-mobile-digits-wide.png
 images: 

@@ -8,8 +8,8 @@ categories:
 - work
 - ux
 tags:
-- visual design
-- information design
+- Visual design
+- Information design
 thumb: hero-msn-cms.png
 hero: hero-msn-cms-wide.png
 images:

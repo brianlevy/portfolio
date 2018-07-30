@@ -8,8 +8,8 @@ categories:
 - work
 - ux
 tags:
-- interaction design
-- visual design
+- Interaction design
+- Visual design
 thumb: hero-ms-journal.jpg
 hero: hero-ms-journal-wide.jpg
 border: tablet

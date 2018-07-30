@@ -203,7 +203,9 @@ pre {
     }
 }
 
-
+.center {
+    text-align: center;
+}
 /**
  * Icons
  */
@@ -239,5 +241,17 @@ pre {
     }
 
 }
-
+a.dload-btn {
+    margin: 12px auto;
+    font-family: $display-font-family;
+    font-weight: 700;
+    display: inline-block;
+    padding: .75em;
+    background-color: $accent-orange;
+    color: $color-white;
+    text-align: center;
+    &:hover {
+        text-decoration: none;
+    }
+}
 

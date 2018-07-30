@@ -9,9 +9,9 @@ categories:
 - work
 - print
 tags:
-- illustration
-- design
-- screen printing
+- Illustration
+- Design
+- Screen printing
 thumb: hero-lighthouse.png
 hero: hero-lighthouse-wide.jpg
 images:

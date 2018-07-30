@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Azure Support Center Resource Health : The Design Portfolio of Brian Levy</title>
+  <meta name="description" content="Design for Microsoft Azure Support Center support case resource health.">
+  <meta name="keywords" content="visual design, interaction design, user experience design,">
+
+  <script src="https://use.typekit.net/qfw6row.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/main-min.css">
+  <link rel="canonical" href="http://brian-levy.com/work/ux/ms-azure-support-center-resource-health">
+  <link rel="alternate" type="application/atom+xml" title="The Design Portfolio of Brian Levy" href="http://brian-levy.com/feed.xml" />
+
+  
+  <!--<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38652128-1', 'auto');
+  ga('send', 'pageview');
+</script>-->
+</head>
+
+
+  <body>
+    <svg style="display: none;"><defs><style>.cls-1{fill:#4d4d4d;}.cls-2{fill:#ffad26;}.cls-3{fill:#f94f5e;}</style></defs><symbol viewBox="0 0 128 128" id="shape-instagram"><title>instagram</title> <rect x="0.049" opacity="0" width="127.951" height="128"/> <path d="M123.203,4.75c3.163,3.168,4.748,6.918,4.748,11.25v96c0,4.336-1.585,8.082-4.748,11.25
+		c-3.167,3.164-6.915,4.75-11.246,4.75H15.994c-4.334,0-8.083-1.586-11.247-4.75C1.581,120.082,0,116.336,0,112V16
+		c0-4.332,1.581-8.082,4.747-11.25C7.911,1.586,11.66,0,15.994,0h95.963C116.288,0,120.036,1.586,123.203,4.75z M111.957,56h-8.996
+		c0.664,2.836,0.999,5.668,0.999,8.5c0,11-3.916,20.418-11.745,28.25c-7.833,7.836-17.243,11.75-28.239,11.75
+		c-10.996,0-20.411-3.914-28.24-11.75C27.903,84.918,23.991,75.5,23.991,64.5c0-2.832,0.332-5.664,1-8.5h-8.996v52
+		c0,1.168,0.375,2.125,1.125,2.875c0.75,0.75,1.706,1.125,2.874,1.125h87.967c1.163,0,2.124-0.375,2.874-1.125
+		c0.749-0.75,1.124-1.707,1.124-2.875V56z M39.985,64.5c0,6.668,2.331,12.336,6.997,17c4.663,4.668,10.328,7,16.994,7
+		c6.661,0,12.327-2.332,16.993-7c4.663-4.664,6.998-10.332,6.998-17c0-6.664-2.335-12.332-6.998-17c-4.666-4.664-10.332-7-16.993-7
+		c-6.666,0-12.331,2.336-16.994,7C42.316,52.168,39.985,57.836,39.985,64.5z M111.957,20c0-1.164-0.375-2.125-1.124-2.875
+		c-0.75-0.75-1.711-1.125-2.874-1.125H91.965c-1.167,0-2.124,0.375-2.874,1.125S87.967,18.836,87.967,20v16
+		c0,1.168,0.374,2.125,1.124,2.875S90.798,40,91.965,40h15.994c1.163,0,2.124-0.375,2.874-1.125c0.749-0.75,1.124-1.707,1.124-2.875
+		V20z"/> </symbol><symbol viewBox="0 0 128 128" id="shape-linkedin"><title>linkedin</title> <path d="M106.5,0h-85C9.675,0,0,9.675,0,21.5v85C0,118.325,9.675,128,21.5,128h85c11.825,0,21.5-9.675,21.5-21.5v-85
+	C128,9.675,118.325,0,106.5,0z M48,104H32V48h16V104z M40,40c-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8S44.418,40,40,40z
+	 M104,104H88V72c0-4.418-3.582-8-8-8s-8,3.582-8,8v32H56V48h16v9.934C75.3,53.401,80.344,48,86,48c9.941,0,18,8.954,18,20V104z"/> </symbol><symbol viewBox="0 0 128 128" id="shape-mail"><title>mail</title> <g> <rect fill-opacity="0" width="127.951" height="128"/> <path d="M126.281,16.791c1.146,1.195,1.719,2.604,1.719,4.232v85.954c0,1.736-0.573,3.173-1.719,4.313
+		c-1.146,1.139-2.594,1.709-4.338,1.709H6.057c-1.637,0-3.057-0.596-4.256-1.791C0.598,110.017,0,108.604,0,106.978V21.023
+		c0-1.735,0.598-3.174,1.801-4.314C3,15.57,4.419,15,6.057,15h115.887C123.688,15,125.135,15.598,126.281,16.791z M115.725,42.349
+		L68.747,78.651c-1.202,0.87-2.455,1.302-3.766,1.302c-1.309,0-2.565-0.432-3.764-1.302L12.276,41.047v59.744h103.449V42.349z
+		 M14.567,27.209l50.414,38.907l50.087-38.907H14.567z"/> </g> </symbol><symbol viewBox="0 0 112 56" id="shape-pencil-logo"><title>pencil-logo</title><g id="pencil-logo-lead"><polygon class="cls-1" points="112 28 102 18 102 38 112 28"/></g><g id="pencil-logo-body"><path class="cls-2" d="M80.46,0H36V26H80.46a15,15,0,0,0,0-26Z"/><path class="cls-2" d="M80.46,30H36V56H80.46a15,15,0,0,0,0-26Z"/></g><g id="pencil-logo-eraser"><path class="cls-3" d="M16.49,0H4A4,4,0,0,0,0,4V52a4,4,0,0,0,4,4H28V0Z"/></g></symbol><symbol viewBox="0 0 128 128" id="shape-twitter"><title>twitter</title> <g> <rect x="0.05" opacity="0" width="127.95" height="128"/> <path d="M114.954,38c0,1,0,2.086,0,3.25c0,8.836-1.667,17.625-4.998,26.375c-3.334,8.75-8.039,16.75-14.119,24
+		c-6.083,7.25-13.955,13.125-23.615,17.625c-9.665,4.5-20.329,6.75-31.988,6.75C25.739,116,12.328,112.086,0,104.25
+		c1.999,0.168,4.081,0.25,6.248,0.25c12.159,0,23.074-3.75,32.737-11.25c-5.833,0-10.956-1.707-15.368-5.125
+		C19.2,84.711,16.075,80.336,14.244,75c1.664,0.336,3.331,0.5,4.998,0.5c2.331,0,4.663-0.25,6.998-0.75
+		c-6.166-1.332-11.206-4.414-15.118-9.25C7.205,60.668,5.248,55.168,5.248,49c0-0.164,0-0.332,0-0.5
+		c3.663,2.168,7.58,3.25,11.745,3.25C9.161,46.586,5.248,39.336,5.248,30c0-4.664,1.25-9.082,3.749-13.25
+		c6.497,8.168,14.452,14.668,23.866,19.5c9.411,4.836,19.449,7.5,30.112,8c-0.5-2-0.75-4-0.75-6c0-7.164,2.582-13.332,7.748-18.5
+		C75.134,14.586,81.3,12,88.465,12c7.661,0,14.076,2.75,19.242,8.25c5.998-1.164,11.578-3.25,16.743-6.25
+		c-1.999,6.168-5.833,11-11.495,14.5c5.162-0.664,10.16-2.082,14.994-4.25C124.45,29.586,120.116,34.168,114.954,38z"/> </g> </symbol></svg>
+    <div class="page-wrap project-page">
+
+      <header id="header" class="site-header">
+         	<div class="header-wrap">		
+			<a href="/" class="logo">
+				<div class="logo-type">
+	              Brian Levy <em>Designer</em>
+	            </div>
+	            <div class="logo-mark">
+	              <svg viewBox="0 0 112 56">
+	                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shape-pencil-logo"></use>
+	                </svg>
+	            </div>
+        	</a>
+
+    	<div class="site-nav">
+  <ul class="main">
+    
+      <li>
+        <a href="/" class="">
+            work
+        </a>
+      </li>
+  
+      <li>
+        <a href="/about/" class="">
+            about
+        </a>
+      </li>
+  
+  </ul>
+  <ul class="contact-links">
+  
+  <li>
+    <a href="https://instagram.com/briandlevy">
+        <svg class="icon" viewBox="0 0 32 32">
+          <use xlink:href="#shape-instagram" />
+        </svg>
+    </a>
+  </li>
+  
+  <li>
+    <a href="https://www.linkedin.com/in/briandlevy">
+        <svg class="icon" viewBox="0 0 32 32">
+          <use xlink:href="#shape-linkedin" />
+        </svg>
+    </a>
+  </li>
+   
+  <li>
+    <a href="mailto:briandlevy@gmail.com">
+        <svg class="icon" viewBox="0 0 32 32">
+          <use xlink:href="#shape-mail" />
+        </svg>
+    </a>
+  </li>
+    
+</ul>
+</div>
+	</div>
+      </header>
+
+      <div class="page-content project">
+          <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Azure Support Center Resource Health</h1>
+ <!--   <p class="post-meta">Jan 20, 2017</p>-->
+  <img src="/img/projects/hero-ms-asc-case-dash-health-wide.png" />
+  </header>
+
+  <article class="post-content">
+
+
+    <div class="proj-description">
+      <p>The Azure Support Center Case Dashboard is the primary view of a Customer Support Case. It gives the Support Engineer a high level overview of the customer and relevant resource information to help diagnose and solve support issues.</p>
+
+<p>The Health Tab is focused on displaying the health data of the specific Azure resource associated with a Support Case. Support Engineers can view the current state of the resource as well as the state as it was at the time the Support Case was created.</p>
+
+      
+      <h2 class="roles">My role:</h2>
+      <ul class="tags">
+        
+        <li>Visual design</li>
+        
+        <li>Information design</li>
+        
+        <li>Responsive design</li>
+        
+      </ul>
+      
+    </div>
+    
+		<ul class="proj-img ">
+    
+			<li class="proportional">
+        <figure>
+  				<img class="" src="/img/projects/ms-asc-case-dash-health-narrow.png" alt="Azure Support Center resource health narrow viewport" title="Narrow viewport"/>
+  				<figcaption>Narrow viewport</figcaption>
+        </figure>  
+			</li>
+    
+			<li class="">
+        <figure>
+  				<img class="" src="/img/projects/ms-asc-case-dash-health-wide.png" alt="Azure Support Center resource health wide viewport" title="Wide viewport"/>
+  				<figcaption>Wide viewport</figcaption>
+        </figure>  
+			</li>
+    
+  	</ul>
+
+  </article>
+
+</div>
+
+      </div>
+
+      <footer class="site-footer">
+	<div class="wrapper">
+
+		<div class="more-list">
+			<h1>More work</h1>
+			<ul class="project-list">
+    
+      <li>
+        <!--<span class="post-meta">Jan 20, 2017</span>-->
+        <a class="post-link" href="/work/ux/ms-azure-support-center-diagnostics">
+          <div class="thumb">
+            <img src="/img/projects/hero-ms-asc-diagnostics.png" title="Azure Support Center Diagnostics"/>            
+          </div>
+          <h2>Azure Support Center Diagnostics</h2>
+        </a>        
+      </li>
+        
+      <li>
+        <!--<span class="post-meta">Jan 20, 2017</span>-->
+        <a class="post-link" href="/work/ux/ms-azure-support-center-resource-health">
+          <div class="thumb">
+            <img src="/img/projects/hero-ms-asc-case-dash-health.png" title="Azure Support Center Resource Health"/>            
+          </div>
+          <h2>Azure Support Center Resource Health</h2>
+        </a>        
+      </li>
+        
+      <li>
+        <!--<span class="post-meta">Aug 8, 2016</span>-->
+        <a class="post-link" href="/work/ux/t-mobile-digits">
+          <div class="thumb">
+            <img src="/img/projects/hero-t-mobile-digits.png" title="T-Mobile Digits"/>            
+          </div>
+          <h2>T-Mobile Digits</h2>
+        </a>        
+      </li>
+        
+      <li>
+        <!--<span class="post-meta">Jul 7, 2016</span>-->
+        <a class="post-link" href="/work/ux/microsoft-business-customer-portal">
+          <div class="thumb">
+            <img src="/img/projects/hero-ms-biz-ctr.png" title="Microsoft Business Center"/>            
+          </div>
+          <h2>Microsoft Business Center</h2>
+        </a>        
+      </li>
+        
+      <li>
+        <!--<span class="post-meta">Jun 6, 2016</span>-->
+        <a class="post-link" href="/work/ux/microsoft-journal-app">
+          <div class="thumb">
+            <img src="/img/projects/hero-ms-journal.jpg" title="Microsoft Journal App Concept"/>            
+          </div>
+          <h2>Microsoft Journal App Concept</h2>
+        </a>        
+      </li>
+        
+      <li>
+        <!--<span class="post-meta">May 5, 2016</span>-->
+        <a class="post-link" href="/work/ux/amazon-roku-interface">
+          <div class="thumb">
+            <img src="/img/projects/hero-amzn-roku.jpg" title="Amazon Roku Interface"/>            
+          </div>
+          <h2>Amazon Roku Interface</h2>
+        </a>        
+      </li>
+        
+      <li>
+        <!--<span class="post-meta">Apr 4, 2016</span>-->
+        <a class="post-link" href="/work/ux/msn-image-edit">
+          <div class="thumb">
+            <img src="/img/projects/hero-msn-img-edit.png" title="MSN Image Editing Tool"/>            
+          </div>
+          <h2>MSN Image Editing Tool</h2>
+        </a>        
+      </li>
+        
+      <li>
+        <!--<span class="post-meta">Mar 3, 2016</span>-->
+        <a class="post-link" href="/work/ux/msn-hero-slide-manager">
+          <div class="thumb">
+            <img src="/img/projects/hero-msn-slide-mgr.png" title="MSN Hero Slide Show Manager"/>            
+          </div>
+          <h2>MSN Hero Slide Show Manager</h2>
+        </a>        
+      </li>
+        
+      <li>
+        <!--<span class="post-meta">Feb 2, 2016</span>-->
+        <a class="post-link" href="/work/ux/msn-hero-slide-creator">
+          <div class="thumb">
+            <img src="/img/projects/hero-msn-slide-edit.png" title="MSN Hero Slide Builder"/>            
+          </div>
+          <h2>MSN Hero Slide Builder</h2>
+        </a>        
+      </li>
+        
+      <li>
+        <!--<span class="post-meta">Jan 1, 2016</span>-->
+        <a class="post-link" href="/work/ux/msn-publishing-tools">
+          <div class="thumb">
+            <img src="/img/projects/hero-msn-cms.png" title="MSN Publishing Tools"/>            
+          </div>
+          <h2>MSN Publishing Tools</h2>
+        </a>        
+      </li>
+        
+  </ul>
+  <h2>Printed works</h2>
+  <ul class="project-list print">
+  
+      <li>
+        <!--<span class="post-meta">Aug 8, 2015</span>-->
+        <div class="thumb ">
+          <a class="post-link" href="/work/print/sc-lighthouse-print">
+            <img src="/img/projects/hero-sc-light.png" title="Santa Cruz Poster"/>
+            <h2>Santa Cruz Poster</h2>
+          </a>
+        </div>       
+      </li>
+        
+      <li>
+        <!--<span class="post-meta">Jun 6, 2015</span>-->
+        <div class="thumb ">
+          <a class="post-link" href="/work/print/anchor-print">
+            <img src="/img/projects/hero-anchor.png" title="Anchor Art Print"/>
+            <h2>Anchor Art Print</h2>
+          </a>
+        </div>       
+      </li>
+        
+      <li>
+        <!--<span class="post-meta">Apr 4, 2015</span>-->
+        <div class="thumb ">
+          <a class="post-link" href="/work/print/hwy-1-print">
+            <img src="/img/projects/hero-hwy-1.png" title="Highway 1 Poster"/>
+            <h2>Highway 1 Poster</h2>
+          </a>
+        </div>       
+      </li>
+        
+      <li>
+        <!--<span class="post-meta">Feb 2, 2015</span>-->
+        <div class="thumb ">
+          <a class="post-link" href="/work/print/oregon-coast-lighthouse-print">
+            <img src="/img/projects/hero-lighthouse.png" title="Yaquina Head Light"/>
+            <h2>Yaquina Head Light</h2>
+          </a>
+        </div>       
+      </li>
+        
+  </ul>
+
+		 </div>
+     
+		<div class="">
+		  <ul class="contact-links">
+  
+  <li>
+    <a href="https://instagram.com/briandlevy">
+        <svg class="icon" viewBox="0 0 32 32">
+          <use xlink:href="#shape-instagram" />
+        </svg>
+    </a>
+  </li>
+  
+  <li>
+    <a href="https://www.linkedin.com/in/briandlevy">
+        <svg class="icon" viewBox="0 0 32 32">
+          <use xlink:href="#shape-linkedin" />
+        </svg>
+    </a>
+  </li>
+   
+  <li>
+    <a href="mailto:briandlevy@gmail.com">
+        <svg class="icon" viewBox="0 0 32 32">
+          <use xlink:href="#shape-mail" />
+        </svg>
+    </a>
+  </li>
+    
+</ul>
+		</div>
+		<div class="copyright">
+		  All content &copy; Brian Levy
+		</div>
+  </div>
+
+</footer>
+    
+    </div>
+
+  </body>
+
+</html>

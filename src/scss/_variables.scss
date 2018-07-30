@@ -57,3 +57,6 @@ $on-desktop:       1024px;
 @mixin for-desktop-up {
   @media (min-width: 1200px) { @content; }
 }
+@mixin for-desktop-wide {
+  @media (min-width: 1333px) { @content; }
+}

@@ -8,8 +8,8 @@ categories:
 - work
 - print
 tags:
-- design
-- screen printing
+- Design
+- Screen printing
 thumb: hero-sc-light.png
 hero: hero-sc-light-wide.jpg
 images:
